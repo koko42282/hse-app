@@ -27,13 +27,13 @@ import (
 //go:embed web/ocr
 var ocrFS embed.FS
 
-//go:embed web/index.html
+go:embed index.html
 var indexHTML []byte
 
-//go:embed web/hse web/hse.html
+//go:embed hse.html
 var hseFS embed.FS
 
-//go:embed web/usbai.ico
+//go:embed usbai.ico
 var iconICO []byte
 
 // SHA-256 of the password ("Hamid"); the plain text is not stored in the binary.
